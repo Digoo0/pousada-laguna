@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pousada Laguna Hotel | Pé na areia em Cabo Frio, Região dos Lagos</title>
+  <meta name="description" content="Pousada em frente à praia em Cabo Frio, com piscina climatizada com prainha, piscina infantil, parquinho, restaurante e recepção 24h. Reserve direto com o melhor preço.">
+  <meta property="og:title" content="Pousada Laguna Hotel | Pé na areia em Cabo Frio">
+  <meta property="og:description" content="Em frente à praia, com piscina climatizada e estrutura completa para a família.">
+  <meta property="og:image" content="assets/img/praia-drone.jpg">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="theme-color" content="#0c3b78">
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Hotel",
+    "name": "Pousada Laguna Hotel",
+    "url": "https://pousadalaguna.com/",
+    "telephone": "+55 22 2648-5858",
+    "email": "contato@pousadalaguna.com",
+    "image": "https://pousadalaguna.com/wp-content/uploads/2020/02/praia_gurdasol_mar_drone.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua dos Atobás, 22, Miguel Couto",
+      "addressLocality": "Cabo Frio",
+      "addressRegion": "RJ",
+      "postalCode": "28908-605",
+      "addressCountry": "BR"
+    },
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Piscina climatizada", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Wi-Fi grátis", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Restaurante", "value": true},
+      {"@type": "LocationFeatureSpecification", "name": "Recepção 24 horas", "value": true}
+    ],
+    "sameAs": ["https://www.instagram.com/pousadalaguna/", "https://www.facebook.com/pousadalaguna"]
+  }
+  </script>
+</head>
+<body>
+
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="topo">
+  <div class="container header__inner">
+    <a href="#topo" class="header__logo" aria-label="Pousada Laguna Hotel, início">
+      <img src="assets/img/logo.png" alt="Pousada Laguna" width="160" height="110">
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#suites">Suítes</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#regiao">Região</a>
+      <a href="#localizacao">Localização</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+    <div class="header__actions">
+      <a class="btn btn--ghost btn--sm js-wa" data-msg="Olá! Gostaria de informações sobre hospedagem na Pousada Laguna." href="#" target="_blank" rel="noopener">
+        <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg><span>WhatsApp</span>
+      </a>
+      <a class="btn btn--primary btn--sm" href="#reservar">Reservar</a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <img class="hero__bg" src="assets/img/praia-drone.jpg" alt="Vista aérea da Pousada Laguna, de frente para a praia de areia branca em Cabo Frio" fetchpriority="high">
+  <div class="hero__shade"></div>
+  <div class="container hero__content">
+    <p class="eyebrow eyebrow--light">Cabo Frio · Região dos Lagos · RJ</p>
+    <h1>Pé na areia, piscina climatizada e diversão para a família inteira.</h1>
+    <p class="hero__lead">Saia da suíte direto para uma praia de areia branca e águas azul-turquesa. Na volta, piscina aquecida acima de 25 ºC, parquinho e restaurante, tudo no mesmo lugar.</p>
+
+    <form class="booking" id="reservar" aria-label="Consultar disponibilidade">
+      <div class="booking__field">
+        <label for="checkin">Check-in</label>
+        <input type="date" id="checkin" name="checkin" required>
+      </div>
+      <div class="booking__field">
+        <label for="checkout">Check-out</label>
+        <input type="date" id="checkout" name="checkout" required>
+      </div>
+      <div class="booking__field booking__field--sm">
+        <label for="adultos">Adultos</label>
+        <select id="adultos" name="adultos">
+          <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option>
+        </select>
+      </div>
+      <div class="booking__field booking__field--sm">
+        <label for="criancas">Crianças</label>
+        <select id="criancas" name="criancas">
+          <option selected>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option>
+        </select>
+      </div>
+      <button class="btn btn--primary btn--lg booking__submit" type="submit">Ver preços e disponibilidade</button>
+      <p class="booking__note">
+        <svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg>
+        <span>Reserve direto com o <strong>melhor preço garantido</strong>.</span>
+        <a href="#" class="js-wa-dates">Prefere cotar pelo WhatsApp?</a>
+      </p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ PROVA / DIFERENCIAIS ============ -->
+<section class="proof" aria-label="Diferenciais">
+  <div class="container proof__grid">
+    <div class="proof__item"><svg class="ico" aria-hidden="true"><use href="#i-wave"/></svg><span><strong>Frente à praia</strong>Praia do Foguete</span></div>
+    <div class="proof__item"><svg class="ico" aria-hidden="true"><use href="#i-pool"/></svg><span><strong>Piscina climatizada</strong>com prainha e cascata</span></div>
+    <div class="proof__item"><svg class="ico" aria-hidden="true"><use href="#i-kid"/></svg><span><strong>Área kids</strong>piscina, brinquedos e parquinho</span></div>
+    <div class="proof__item"><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg><span><strong>Recepção 24h</strong>e passeios agendados</span></div>
+    <div class="proof__item"><svg class="ico" aria-hidden="true"><use href="#i-wifi"/></svg><span><strong>Wi-Fi grátis</strong>e gerador próprio</span></div>
+  </div>
+</section>
+
+<!-- ============ SUÍTES ============ -->
+<section class="section" id="suites">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow">Acomodações</p>
+      <h2>Uma suíte para cada tipo de viagem</h2>
+      <p>Todas com varanda e rede, ar-condicionado, ventilador de teto, frigobar, TV a cabo, cama box e banheiro privativo. Berço grátis mediante solicitação.</p>
+    </header>
+
+    <div class="rooms">
+      <article class="room">
+        <div class="room__media">
+          <img src="assets/img/suite-standard.jpg" alt="Suíte Standard com cama de casal e varanda" loading="lazy">
+          <span class="tag">Melhor custo-benefício</span>
+        </div>
+        <div class="room__body">
+          <h3>Suíte Standard</h3>
+          <p class="room__meta"><span>Até 6 pessoas</span><span>Casal + beliche e/ou solteiro</span></p>
+          <p>Simples e confortável: a escolha econômica para as férias da família, a passos da areia.</p>
+          <ul class="checks">
+            <li>Varanda externa ou interna envidraçada, com rede</li>
+            <li>Opções no térreo e adaptadas para cadeirantes (solicitar)</li>
+          </ul>
+          <div class="room__cta">
+            <a class="btn btn--primary" href="#reservar" data-room="Suíte Standard">Ver disponibilidade</a>
+            <a class="link js-wa" data-msg="Olá! Gostaria de saber valores da Suíte Standard." href="#" target="_blank" rel="noopener">Perguntar no WhatsApp →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="room">
+        <div class="room__media">
+          <img src="assets/img/suite-mezanino.jpg" alt="Suíte Mezanino com escada interna e camas no mezanino" loading="lazy">
+          <span class="tag">Ideal para famílias grandes</span>
+        </div>
+        <div class="room__body">
+          <h3>Suíte Mezanino</h3>
+          <p class="room__meta"><span>Até 7 pessoas</span><span>Casal + solteiros no mezanino</span></p>
+          <p>Escada dentro da suíte levando ao mezanino: mais espaço e privacidade para quem viaja com filhos maiores.</p>
+          <ul class="checks">
+            <li>Mezanino com camas de solteiro</li>
+            <li>Varanda externa ou interna, com rede</li>
+          </ul>
+          <div class="room__cta">
+            <a class="btn btn--primary" href="#reservar" data-room="Suíte Mezanino">Ver disponibilidade</a>
+            <a class="link js-wa" data-msg="Olá! Gostaria de saber valores da Suíte Mezanino." href="#" target="_blank" rel="noopener">Perguntar no WhatsApp →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="room room--featured">
+        <div class="room__media">
+          <img src="assets/img/suite-deluxe.jpg" alt="Suíte Deluxe frente-mar com banheira de hidromassagem" loading="lazy">
+          <span class="tag tag--sun">Frente-mar com hidro</span>
+        </div>
+        <div class="room__body">
+          <h3>Deluxe Frente-Mar</h3>
+          <p class="room__meta"><span>Até 4 pessoas</span><span>Cama king + solteiro(s)</span></p>
+          <p>Banheira de hidromassagem e varanda envidraçada com rede, no andar superior, de frente para o mar.</p>
+          <ul class="checks">
+            <li>Vista para o mar e cama king extra-larga</li>
+            <li>Smart TV, perfeita para lua de mel</li>
+          </ul>
+          <div class="room__cta">
+            <a class="btn btn--primary" href="#reservar" data-room="Deluxe Frente-Mar">Ver disponibilidade</a>
+            <a class="link js-wa" data-msg="Olá! Gostaria de saber valores da Suíte Deluxe Frente-Mar com hidro." href="#" target="_blank" rel="noopener">Perguntar no WhatsApp →</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ESTRUTURA ============ -->
+<section class="section section--sand" id="estrutura">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow">Estrutura completa</p>
+      <h2>Os adultos descansam. As crianças não querem ir embora.</h2>
+      <p>Lazer e restaurante ficam no térreo, com acesso fácil para quem tem dificuldade de locomoção.</p>
+    </header>
+
+    <div class="bento">
+      <figure class="bento__item bento__item--xl">
+        <img src="assets/img/piscina.jpg" alt="Piscina climatizada com cascata e espreguiçadeiras" loading="lazy">
+        <figcaption><strong>Piscina climatizada</strong>Água acima de 25 ºC, com prainha rasa, cascata e espreguiçadeiras no deck.</figcaption>
+      </figure>
+      <figure class="bento__item">
+        <img src="assets/img/piscina-infantil.jpg" alt="Piscina infantil com brinquedos aquáticos" loading="lazy">
+        <figcaption><strong>Piscina infantil</strong>Rasinha, com brinquedos aquáticos.</figcaption>
+      </figure>
+      <figure class="bento__item">
+        <img src="assets/img/parquinho.jpg" alt="Parquinho infantil com grama artificial" loading="lazy">
+        <figcaption><strong>Parquinho</strong>Piso emborrachado para brincar com segurança.</figcaption>
+      </figure>
+      <figure class="bento__item bento__item--wide">
+        <img src="assets/img/restaurante.jpg" alt="Restaurante integrado à área da piscina" loading="lazy">
+        <figcaption><strong>Restaurante e bar</strong>Integrado à piscina e aberto todos os dias: café da manhã, almoço, jantar, pizzas e porções.</figcaption>
+      </figure>
+      <figure class="bento__item">
+        <img src="assets/img/salao-jogos.jpg" alt="Salão de jogos com sinuca e pebolim" loading="lazy">
+        <figcaption><strong>Salão de jogos</strong>Sinuca, pingue-pongue e pebolim.</figcaption>
+      </figure>
+      <figure class="bento__item">
+        <img src="assets/img/sauna.jpg" alt="Sauna a vapor" loading="lazy">
+        <figcaption><strong>Sauna a vapor</strong>Para relaxar em dia de chuva ou de frio.</figcaption>
+      </figure>
+      <figure class="bento__item bento__item--wide">
+        <img src="assets/img/casa-dos-ventos.jpg" alt="Casa dos Ventos, espaço aberto com redes" loading="lazy">
+        <figcaption><strong>Casa dos Ventos</strong>Espaço aberto com redes e almofadas para a sesta depois da praia.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LUA DE MEL / OCASIÕES ============ -->
+<section class="feature">
+  <div class="container feature__inner">
+    <div class="feature__media">
+      <img src="assets/img/deluxe-lua-de-mel.jpg" alt="Suíte Deluxe decorada para lua de mel" loading="lazy">
+    </div>
+    <div class="feature__text">
+      <p class="eyebrow">Ocasiões especiais</p>
+      <h2>Lua de mel, aniversário ou só um fim de semana a dois</h2>
+      <p>Na Deluxe frente-mar, a hidromassagem e a rede na varanda já fazem metade do trabalho. A outra metade é com a nossa equipe:</p>
+      <ul class="feature__list">
+        <li><strong>Pacote lua de mel</strong><span>Acomodação e serviços especiais para casais.</span></li>
+        <li><strong>Kit Festa</strong><span>Seu evento aqui, com bolo, salgadinhos e decoração.</span></li>
+        <li><strong>Passeios agendados</strong><span>A recepção 24h reserva os melhores passeios da região.</span></li>
+      </ul>
+      <a class="btn btn--primary js-wa" data-msg="Olá! Quero montar uma hospedagem especial (lua de mel / comemoração) na Pousada Laguna." href="#" target="_blank" rel="noopener">
+        <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Planejar pelo WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REGIÃO ============ -->
+<section class="section" id="regiao">
+  <div class="container">
+    <header class="section__head">
+      <p class="eyebrow">Paraíso do Atlântico</p>
+      <h2>35 km de praias de areia branca ao seu redor</h2>
+      <p>Clima médio de 25 ºC no verão e de 18 a 23 ºC no inverno. Da pousada, você chega fácil aos melhores cenários da Região dos Lagos.</p>
+    </header>
+
+    <div class="places">
+      <article class="place">
+        <img src="assets/img/gruta-azul.jpg" alt="Gruta Azul em Arraial do Cabo" loading="lazy">
+        <div class="place__body">
+          <h3>Passeio de barco à Gruta Azul</h3>
+          <p>Cerca de 4 horas, com paradas na Ilha do Farol, Prainhas do Pontal do Atalaia e Praia do Forno.</p>
+        </div>
+      </article>
+      <article class="place">
+        <img src="assets/img/mergulho.jpg" alt="Tartaruga marinha em mergulho em Arraial do Cabo" loading="lazy">
+        <div class="place__body">
+          <h3>Mergulho em Arraial do Cabo</h3>
+          <p>A capital do mergulho: tartarugas, moreias e golfinhos, além de pinguins e baleias na época certa.</p>
+        </div>
+      </article>
+      <article class="place">
+        <img src="assets/img/kite.jpg" alt="Kitesurf na Região dos Lagos" loading="lazy">
+        <div class="place__body">
+          <h3>Kite, wind e surf na porta</h3>
+          <p>A Praia do Foguete, em frente à pousada, tem vento de 12 a 25 nós e ondas de 1 a 4 m.</p>
+        </div>
+      </article>
+      <article class="place">
+        <img src="assets/img/passeio-barco.jpg" alt="Praia de águas cristalinas na Região dos Lagos" loading="lazy">
+        <div class="place__body">
+          <h3>Búzios e Lagoa de Araruama</h3>
+          <p>A "Saint-Tropez brasileira" e a Lagoa de Araruama, a cerca de 20 minutos, completam o roteiro.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESERVA DIRETA ============ -->
+<section class="direct">
+  <div class="container direct__inner">
+    <div>
+      <p class="eyebrow eyebrow--light">Por que reservar direto?</p>
+      <h2>Mesmo quarto, melhor negócio.</h2>
+    </div>
+    <ul class="direct__list">
+      <li><svg class="ico" aria-hidden="true"><use href="#i-shield"/></svg><span><strong>Melhor preço garantido</strong> no site oficial</span></li>
+      <li><svg class="ico" aria-hidden="true"><use href="#i-chat"/></svg><span><strong>Fale com quem está na pousada</strong>, 24 horas por dia</span></li>
+      <li><svg class="ico" aria-hidden="true"><use href="#i-star"/></svg><span><strong>Pedidos especiais</strong>: suíte no térreo, berço, decoração</span></li>
+    </ul>
+    <a class="btn btn--sun btn--lg" href="#reservar">Consultar datas</a>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="duvidas">
+  <div class="container container--narrow">
+    <header class="section__head">
+      <p class="eyebrow">Antes de reservar</p>
+      <h2>Dúvidas frequentes</h2>
+    </header>
+
+    <div class="faq">
+      <details>
+        <summary>A pousada fica mesmo de frente para a praia?</summary>
+        <p>Sim. A Pousada Laguna fica diretamente em frente à Praia do Foguete, em Cabo Frio, uma praia de areia branca e águas azul-turquesa.</p>
+      </details>
+      <details>
+        <summary>A piscina é aquecida?</summary>
+        <p>Sim. A piscina principal é climatizada, com água acima de 25 ºC, prainha rasa e cascata. As crianças têm também uma piscina infantil rasa, com brinquedos aquáticos.</p>
+      </details>
+      <details>
+        <summary>Quais são os horários do restaurante?</summary>
+        <p>O restaurante abre todos os dias, normalmente das 7h30 às 22h. Café da manhã das 7h30 às 10h, almoço das 12h às 15h e jantar das 18h às 21h, em buffet a quilo ou à la carte, conforme a temporada.</p>
+      </details>
+      <details>
+        <summary>Vou viajar com bebê. Tem berço?</summary>
+        <p>Tem, e é grátis. É só pedir no momento da reserva.</p>
+      </details>
+      <details>
+        <summary>A pousada é acessível?</summary>
+        <p>As áreas de lazer e o restaurante ficam no térreo, com acesso fácil. Temos suítes no térreo e suítes adaptadas para cadeirantes; solicite na reserva.</p>
+      </details>
+      <details>
+        <summary>Tem estacionamento?</summary>
+        <p>Não oferecemos estacionamento próprio. A rua de acesso em frente à pousada é tranquila e costuma ter espaço para estacionar.</p>
+      </details>
+      <details>
+        <summary>E se faltar energia?</summary>
+        <p>A pousada tem gerador próprio, para manter a energia elétrica sem interrupção.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCALIZAÇÃO ============ -->
+<section class="section section--sand" id="localizacao">
+  <div class="container location">
+    <div class="location__info">
+      <p class="eyebrow">Como chegar</p>
+      <h2>Estamos em Cabo Frio, no pé da areia</h2>
+      <address>
+        Rua dos Atobás, 22, Miguel Couto<br>
+        Cabo Frio, RJ · CEP 28908-605
+      </address>
+      <ul class="contact">
+        <li><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg><a class="js-wa" data-msg="Olá! Gostaria de informações sobre hospedagem na Pousada Laguna." href="#" target="_blank" rel="noopener">(22) 2042-0039 · WhatsApp</a></li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+552226485858">(22) 2648-5858</a></li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:contato@pousadalaguna.com">contato@pousadalaguna.com</a></li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg><a href="https://www.instagram.com/pousadalaguna/" target="_blank" rel="noopener">@pousadalaguna</a></li>
+      </ul>
+      <a class="btn btn--ghost-dark" href="https://goo.gl/maps/557tFn6Xq3omTzjYA" target="_blank" rel="noopener">Abrir no Google Maps</a>
+    </div>
+    <div class="location__map">
+      <iframe title="Mapa da Pousada Laguna" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Rua+dos+Atob%C3%A1s,+22,+Cabo+Frio+-+RJ,+28908-605&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section class="final">
+  <img class="final__bg" src="assets/img/prainha.jpg" alt="" loading="lazy">
+  <div class="final__shade"></div>
+  <div class="container final__inner">
+    <h2>Suas próximas férias começam na areia.</h2>
+    <p>Feriados e alta temporada lotam rápido. Garanta sua suíte agora.</p>
+    <div class="final__ctas">
+      <a class="btn btn--sun btn--lg" href="#reservar">Ver preços e disponibilidade</a>
+      <a class="btn btn--light btn--lg js-wa" data-msg="Olá! Gostaria de fazer uma reserva na Pousada Laguna." href="#" target="_blank" rel="noopener">
+        <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>Reservar pelo WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <img src="assets/img/logo.png" alt="Pousada Laguna" width="120" height="83" class="footer__logo">
+      <p>Pousada em frente à praia em Cabo Frio, com estrutura completa para a família.</p>
+    </div>
+    <nav aria-label="Rodapé">
+      <a href="#suites">Suítes</a>
+      <a href="#estrutura">Estrutura</a>
+      <a href="#regiao">Região</a>
+      <a href="#duvidas">Dúvidas</a>
+      <a href="#localizacao">Contato</a>
+    </nav>
+    <div class="footer__social">
+      <a href="https://www.instagram.com/pousadalaguna/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg></a>
+      <a href="https://www.facebook.com/pousadalaguna" target="_blank" rel="noopener" aria-label="Facebook"><svg class="ico" aria-hidden="true"><use href="#i-fb"/></svg></a>
+    </div>
+  </div>
+  <p class="container footer__legal">© <span id="ano">2026</span> Pousada Laguna Hotel Ltda. · CNPJ 03.578.401/0001-11</p>
+</footer>
+
+<!-- WhatsApp flutuante (desktop) -->
+<a class="wa-float js-wa" data-msg="Olá! Gostaria de informações sobre hospedagem na Pousada Laguna." href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>
+</a>
+
+<!-- Barra fixa (mobile) -->
+<div class="mobile-bar">
+  <a class="btn btn--light js-wa" data-msg="Olá! Gostaria de informações sobre hospedagem na Pousada Laguna." href="#" target="_blank" rel="noopener">
+    <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp
+  </a>
+  <a class="btn btn--primary" href="#reservar">Ver preços</a>
+</div>
+
+<!-- Ícones -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.24-8.24 8.24Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-wave" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M2 12c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2M2 17c2 0 2-2 4-2s2 2 4 2 2-2 4-2 2 2 4 2 2-2 4-2M12 3a4 4 0 0 1 4 4"/></symbol>
+  <symbol id="i-pool" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M2 20c2 0 2-1.5 4-1.5S8 20 10 20s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5M8 16V5a2 2 0 0 1 4 0M16 16V5a2 2 0 0 0-4 0M8 9h8M8 13h8"/></symbol>
+  <symbol id="i-kid" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM7 21l2-7-3-2 3-3h6l3 3-3 2 2 7"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20ZM12 6v6l4 2"/></symbol>
+  <symbol id="i-wifi" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0M2 9a15 15 0 0 1 20 0M12 20h.01"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12Z"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2Z"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 5h18v14H3zM3 6l9 7 9-7"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm5 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm5.5-1.5h.01"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3V2Z"/></symbol>
+</svg>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
